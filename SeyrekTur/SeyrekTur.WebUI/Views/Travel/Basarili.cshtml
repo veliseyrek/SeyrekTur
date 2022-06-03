@@ -1,0 +1,44 @@
+﻿@model TicketRoute
+
+<div class="container shadow" style="text-align:center;">
+    <br />
+    <i class="fas fa-check-circle" style="font-size:36px; color:green;"></i><br />
+    <br /><p> Sayın @Model.ticket.Name @Model.ticket.Surname, @Model.ticket.From -> @Model.ticket.To için bilet alma işleminiz başarılı.</p> <br />
+    <a asp-controller="home" asp-action="iletisim">İletişim</a>
+    <br /><hr /><br />
+    <h3>Bilet Bilgileriniz</h3><br />
+
+    <table class="table table table-bordered shadow-sm">
+        <thead>
+            <tr>
+                <th style="width:40px;">Ticket No</th>
+                <th style="width:200px;">Name - Surname</th>
+                <th style="">Mail</th>
+                <th style="width:105px;">Start</th>
+                <th style="width:105px;">Finish</th>
+                <th style="width:60px;">SeatNo</th>
+                <th style="width:80px;">Price</th>
+                <th style="width:200px;">Date - Hours</th>
+
+                <th style="width:75px;">Route No</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.ticket.TicketId</td>
+                <td>@Model.ticket.Name @Model.ticket.Surname</td>
+                <td>@Model.ticket.Mail</td>
+                <td>@Model.ticket.From</td>
+                <td>@Model.ticket.To</td>
+                <td>@Model.ticket.SeatNo</td>
+                <td>@Model.ticket.Price ₺</td>
+                <td>@Model.date - @Model.hour</td>
+
+                <td>@Model.ticket.RouteId</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br />
+</div>
