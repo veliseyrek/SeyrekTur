@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="col-md-8">
-                    <h4>@Model.Start > @Model.Finish Aracı</h4>
+                    <h4>@TempData["from"] - @TempData["to"] Aracı</h4>
                     <p><b>Güzergah: </b> @Model.Start > @Model.Route1 > @Model.Route2 > @Model.Route3 > @Model.Finish</p>
                     <p>@Model.date  -  @Model.Time</p>
                     <br />
@@ -70,7 +70,7 @@
                         <input type="hidden" name="price" value="@fiyat2" />}
                     @if ((@TempData["from"].ToString() == @Model.Start) && (@TempData["to"].ToString() == @Model.Route1))
                     {
-                <p style="text-align: right; font-size:26px;pricefiyat3 ₺</p>
+                <p style="text-align: right; font-size:26px;price">@fiyat3 ₺</p>
                         <input type="hidden" name="fiyat" value="@fiyat3" />}
                     @if ((@TempData["from"].ToString() == @Model.Route1) && (@TempData["to"].ToString() == @Model.Finish))
                     {

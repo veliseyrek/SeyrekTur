@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kxv7Xc/HZ6rRCfji0qWjmLdp/cq7Em6Hph+QCNp7JpNO+vmstJPZXmj9oubpqFNKHxXAEv0f9XR9/L1MQbTyJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\veli\\SeyrekTur\\SeyrekTur.Core\\SeyrekTur.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

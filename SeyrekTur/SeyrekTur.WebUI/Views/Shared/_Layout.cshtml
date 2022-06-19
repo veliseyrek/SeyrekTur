@@ -27,27 +27,43 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Iletisim">İletişim</a>
                             </li>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="AdminList">Admin Listesi</a>
+                                </li>
+                            }
+
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="AdminList">Admin Listesi</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Sehir">Şehirler
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Sehir">
+                                    Şehirler
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div>
                         <ul class="navbar-nav flex-grow-1">
+                            @if (!User.Identity.IsAuthenticated)
+                            {
 
-                            <li class="nav-item">
-                                <a href="/account/login" class="nav-link text-dark">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/account/register" class="nav-link text-dark">Register</a>
-                            </li> 
-                            <li class="nav-item">
-                                <a href="/account/logout" class="nav-link text-dark">Logout</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a href="/account/login" class="nav-link text-dark">Giriş Yap</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/account/register" class="nav-link text-dark">Kayıt Ol</a>
+                                </li>
+                            }
+                            else
+                            {
+
+                                <li class="nav-item">
+                                    <a href="/account/register" class="nav-link text-dark">@User.Identity.Name</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/account/logout" class="nav-link text-dark">Çıkış Yap</a>
+                                </li>
+                            }
+
                         </ul>
                     </div>
                 </div>
@@ -57,6 +73,20 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
+            @*@if (TempData["Message"] != null)
+                {
+                    var message = JsonConvert.DeserializeObject<AlertMessage>(TempData["Message"] as String);
+                    <div class="row">
+                        <div class="col-md-12 alert">
+                            <div class="alert alert-@message.AlertType alert-dismissible fade show" role="alert">
+                                <div>@message.Title</div>
+                                <div>@message.Message</div>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                }*@
+
             @RenderBody()
         </main>
     </div>
@@ -70,6 +100,8 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/214c1c03c5.js" crossorigin="anonymous"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

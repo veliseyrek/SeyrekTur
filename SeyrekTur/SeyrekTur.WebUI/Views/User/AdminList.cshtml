@@ -1,10 +1,12 @@
-﻿@model TicketRoute
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model TicketRoute
 
 
 <div class="row">
     <div class="col-md-12">
         <h1 class="h3">Checking of Ticket</h1> <hr /> <br />
-        <table class="table table-danger table-bordered shadow-sm mt-3">
+        <table id="exampledatatable" class="table table-danger table-bordered shadow-sm mt-3">
             <thead>
                 <tr>
                     <th style="width:20px;">BiletID</th>
@@ -38,14 +40,31 @@
             <button type="submit" class="btn btn-danger btn-md mr-2" style="color: white;">Bileti İptal Et</button>
         </form>
     </td>
-</tr>
-} }
+</tr>} }
 else
 {
-<p>Sistemde henüz kayıtlı bilet yok!</p>
-}
+<p>Sistemde henüz kayıtlı bilet yok!</p>}
             </tbody>
 
         </table>
     </div>
 </div>
+<br />
+<br />
+@*@Html.PagedListPager((IPagedList)Model, page => Url.Action("AdminList", new { page }))*@
+<br />
+<br />
+<a href="/User/ExportDinamicExcelBlogList" class="btn btn-primary">Excel Listesini İndir</a>
+
+@section  scripts{
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/af-2.4.0/datatables.min.css" />
+
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/af-2.4.0/datatables.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#exampledatatable").DataTable();
+    })
+</script>
+
+}
