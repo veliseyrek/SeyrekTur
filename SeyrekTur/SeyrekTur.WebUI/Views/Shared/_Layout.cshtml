@@ -32,6 +32,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="AdminList">Admin Listesi</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="ToDoList">Todo List</a>
+                                </li>
                             }
 
                             <li class="nav-item">
@@ -57,7 +60,7 @@
                             {
 
                                 <li class="nav-item">
-                                    <a href="/account/register" class="nav-link text-dark">@User.Identity.Name</a>
+                                    <a href="/account/register" class="nav-link text-        dark">@User.Identity.Name</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="/account/logout" class="nav-link text-dark">Çıkış Yap</a>
@@ -73,19 +76,19 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @*@if (TempData["Message"] != null)
-                {
-                    var message = JsonConvert.DeserializeObject<AlertMessage>(TempData["Message"] as String);
-                    <div class="row">
-                        <div class="col-md-12 alert">
-                            <div class="alert alert-@message.AlertType alert-dismissible fade show" role="alert">
-                                <div>@message.Title</div>
-                                <div>@message.Message</div>
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                        </div>
-                    </div>
-                }*@
+@*            @if (TempData["Message"] != null)
+            {
+            var message = JsonConvert.DeserializeObject<AlertMessage>(TempData["Message"] as String);
+            <div class="row">
+            <div class="col-md-12 alert">
+            <div class="alert alert-@message.AlertType alert-dismissible fade show" role="alert">
+            <div>@message.Title</div>
+            <div>@message.Message</div>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            </div>
+            </div>
+            }*@
 
             @RenderBody()
         </main>

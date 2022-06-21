@@ -34,7 +34,6 @@ C:\Users\hp\Desktop\SeyrekTur\SeyrekTur.Business\obj\Debug\net5.0\ref\SeyrekTur.
 C:\Users\hp\Desktop\SeyrekTur\SeyrekTur.Business\obj\Debug\net5.0\SeyrekTur.Business.pdb
 C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Business\bin\Debug\net5.0\SeyrekTur.Business.deps.json
 C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Business\bin\Debug\net5.0\SeyrekTur.Business.dll
-C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Business\bin\Debug\net5.0\ref\SeyrekTur.Business.dll
 C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Business\bin\Debug\net5.0\SeyrekTur.Business.pdb
 C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Business\bin\Debug\net5.0\SeyrekTur.Data.dll
 C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Business\bin\Debug\net5.0\SeyrekTur.Entity.dll
@@ -66,3 +65,4 @@ C:\Users\hp\Desktop\veli\SeyrekTur\SeyrekTur.Business\obj\Debug\net5.0\SeyrekTur
 C:\Users\hp\Desktop\veli\SeyrekTur\SeyrekTur.Business\obj\Debug\net5.0\SeyrekTur.Business.dll
 C:\Users\hp\Desktop\veli\SeyrekTur\SeyrekTur.Business\obj\Debug\net5.0\ref\SeyrekTur.Business.dll
 C:\Users\hp\Desktop\veli\SeyrekTur\SeyrekTur.Business\obj\Debug\net5.0\SeyrekTur.Business.pdb
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Business\obj\Debug\net5.0\refint\SeyrekTur.Business.dll

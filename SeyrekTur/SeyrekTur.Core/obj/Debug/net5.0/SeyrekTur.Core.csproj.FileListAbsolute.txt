@@ -10,3 +10,15 @@ C:\Users\hp\Desktop\veli\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\SeyrekTur.Cor
 C:\Users\hp\Desktop\veli\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\ref\SeyrekTur.Core.dll
 C:\Users\hp\Desktop\veli\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\SeyrekTur.Core.pdb
 C:\Users\hp\Desktop\veli\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\SeyrekTur.Core.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\bin\Debug\net5.0\SeyrekTur.Core.deps.json
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\bin\Debug\net5.0\SeyrekTur.Core.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\bin\Debug\net5.0\SeyrekTur.Core.pdb
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\SeyrekTur.Core.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\SeyrekTur.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\SeyrekTur.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\SeyrekTur.Core.AssemblyInfo.cs
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\SeyrekTur.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\SeyrekTur.Core.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\ref\SeyrekTur.Core.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\SeyrekTur.Core.pdb
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Debug\net5.0\refint\SeyrekTur.Core.dll

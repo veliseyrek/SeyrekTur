@@ -32,6 +32,11 @@ namespace SeyrekTur.WebUI.Controllers
             }) ;
         }
 
+        public IActionResult ToDoList()
+        {
+            return View();
+        }
+
         public IActionResult IptalBilet(int biletId)
         {
             var bilet = _ticketService.GetById(biletId);
