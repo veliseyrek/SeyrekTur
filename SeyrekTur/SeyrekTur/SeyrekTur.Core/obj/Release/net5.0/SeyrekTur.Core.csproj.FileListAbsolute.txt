@@ -1,0 +1,12 @@
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\bin\Release\net5.0\SeyrekTur.Core.deps.json
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\bin\Release\net5.0\SeyrekTur.Core.dll
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\bin\Release\net5.0\SeyrekTur.Core.pdb
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Release\net5.0\SeyrekTur.Core.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Release\net5.0\SeyrekTur.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Release\net5.0\SeyrekTur.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Release\net5.0\SeyrekTur.Core.AssemblyInfo.cs
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Release\net5.0\SeyrekTur.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Release\net5.0\SeyrekTur.Core.dll
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Release\net5.0\refint\SeyrekTur.Core.dll
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Release\net5.0\SeyrekTur.Core.pdb
+C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Core\obj\Release\net5.0\ref\SeyrekTur.Core.dll

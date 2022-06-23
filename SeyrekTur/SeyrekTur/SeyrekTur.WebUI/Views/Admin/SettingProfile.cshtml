@@ -1,0 +1,52 @@
+﻿@model RegisterModel
+@{
+    ViewData["Title"] = "SettingProfile";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Düzenle</h1>
+
+<hr />
+<form asp-controller="Admin" asp-action="SettingProfile" method="post">
+    <div class="row">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="col-md-8">
+
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">First Name:</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="FirstName" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">Last Name:</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="LastName" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">User Name:</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="UserName" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <label class="col-form-label col-sm-3">Email:</label>
+                <div class="col-sm-9">
+                    <input type="text" asp-for="Email" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group row mb-2">
+                <input type="hidden" name="UserId" value="" />
+                <div class="col-sm-9">
+                    <button type="submit" class="btn btn-primary">Değişiklikleri Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+

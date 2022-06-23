@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model TicketRoute
+
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="h3 text-center font-weight-bold">Yolcu Listesi</h1> <hr /> 
+        <table id="exampledatatable" class="table table-dark table-bordered shadow-sm mt-3">
+            <thead>
+                <tr>
+                    <th style="width:20px;">BiletID</th>
+                    <th style="width:145px;">Ad - Soyad</th>
+                    <th style="">Mail</th>
+                    <th style="width:25px;">Başlangıç</th>
+                    <th style="width:25px;">Bitiş</th>
+                    <th style="width:70px;">KoltukNo</th>
+                    <th style="width:80px;">Fiyat</th>
+                    <th style="width:85px;">GüzergahNo</th>
+                    <th style="width:165px;">İptal</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Tickets.Count > 0)
+                {
+                foreach (var item in Model.Tickets)
+    {
+                <tr>
+                    <td>@item.TicketId</td>
+                    <td>@item.Name @item.Surname</td>
+                    <td>@item.Mail</td>
+                    <td>@item.From</td>
+                    <td>@item.To</td>
+                    <td>@item.SeatNo</td>
+                    <td>@item.Price ₺</td>
+                    <td>@item.RouteId</td>
+                    <td>
+                        <form action="/user/iptalbilet" method="POST" style="display:inline;">
+                            <input type="hidden" name="biletId" value="@item.TicketId" />
+                            <button type="submit" class="btn btn-danger btn-md mr-2" style="color: white;">Bileti İptal Et</button>
+                        </form>
+                    </td>
+                </tr>
+} }
+else
+{
+                <p>Sistemde henüz kayıtlı bilet yok!</p>
+}
+            </tbody>
+
+        </table>
+    </div>
+</div>
+<br />
+
+@*@Html.PagedListPager((IPagedList)Model, page => Url.Action("AdminList", new { page }))*@
+
+<br />
+<a href="/User/ExportDinamicExcelBlogList" class="btn btn-primary">Excel Listesini İndir</a>
+
+@*@section script{
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/af-2.4.0/datatables.min.css" />
+
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/af-2.4.0/datatables.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#exampledatatable").DataTable();
+    })</script>
+
+};*@
