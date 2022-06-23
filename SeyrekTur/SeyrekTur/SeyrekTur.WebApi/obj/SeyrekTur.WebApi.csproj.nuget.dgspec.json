@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebApi\\SeyrekTur.WebApi.csproj": {}
+    "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebApi\\SeyrekTur.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebApi\\SeyrekTur.WebApi.csproj": {
+    "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebApi\\SeyrekTur.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebApi\\SeyrekTur.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebApi\\SeyrekTur.WebApi.csproj",
         "projectName": "SeyrekTur.WebApi",
-        "projectPath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebApi\\SeyrekTur.WebApi.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebApi\\SeyrekTur.WebApi.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

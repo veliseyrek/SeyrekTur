@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M7zX2VWIoYZXRKryNtn10d1wulb2pwU4w8+fKG5NJ8N1Ixp3Z37e2n7tSwDsBiGPOlr3ZfoU5OKcD+HSvxflgA==",
+  "dgSpecHash": "OsZRZXZER3eU8IfLNjwBP3uJ31BHWTqJgpD+zABWHm/M0AowK8A8iz4rnb10mMw72wlGyIkcoCC8fk++m+hgQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.Core\\SeyrekTur.Core.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.Core\\SeyrekTur.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

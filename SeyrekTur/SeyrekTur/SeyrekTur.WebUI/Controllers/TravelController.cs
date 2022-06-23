@@ -46,11 +46,6 @@ namespace SeyrekTur.WebUI.Controllers
             }
             else
             {
-                //var sehirModel = new BiletGuzergah()
-                //{
-
-                //    YeniGuzergah = guzergah
-                //};
                 return View(route);
             }
         }

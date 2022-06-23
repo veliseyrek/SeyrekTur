@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vsX9YseAqEPjsNCfMvArkQ00gnj4hbVi8kI1m1FYXApfE69p6ExKxiOMJsoSC+eQkgIvrhxvQVOB5PM/90VW9g==",
+  "dgSpecHash": "jfgJk0FWj8kO0rfy2Cuy0EN/n1sVubSqPp0j0av5oWz+J9QBnqAZpf1sWqVhOK8UTlZi2Le2t6/HLsynl0kEAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.Data\\SeyrekTur.Data.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.Data\\SeyrekTur.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

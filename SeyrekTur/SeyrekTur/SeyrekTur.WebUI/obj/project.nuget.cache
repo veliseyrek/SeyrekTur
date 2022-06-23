@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wVYvMpOMeIb7N30D9aWnxj7nsJqXOwo0D+2uloZUbgmVo31roTTIyAUUCMmvFM4DE9oLRqh/CXQPSdzDmI+dig==",
+  "dgSpecHash": "Obv7k4yMuQgTy2PB/c9AD2hY60DQmTi3sWKLXCVIRJWlwuWQBKBbkZSUOVoF2GT71aLQkFSmC0hWE5grDalqDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebUI\\SeyrekTur.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebUI\\SeyrekTur.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\documentformat.openxml\\2.7.2\\documentformat.openxml.2.7.2.nupkg.sha512",

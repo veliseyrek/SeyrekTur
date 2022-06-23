@@ -9573,11 +9573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebUI\\SeyrekTur.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebUI\\SeyrekTur.WebUI.csproj",
       "projectName": "SeyrekTur.WebUI",
-      "projectPath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebUI\\SeyrekTur.WebUI.csproj",
+      "projectPath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebUI\\SeyrekTur.WebUI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9594,14 +9594,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.Business\\SeyrekTur.Business.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.Business\\SeyrekTur.Business.csproj"
+            "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.Business\\SeyrekTur.Business.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.Business\\SeyrekTur.Business.csproj"
             },
-            "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.Core\\SeyrekTur.Core.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.Core\\SeyrekTur.Core.csproj"
+            "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.Core\\SeyrekTur.Core.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.Core\\SeyrekTur.Core.csproj"
             },
-            "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.Data\\SeyrekTur.Data.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.Data\\SeyrekTur.Data.csproj"
+            "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.Data\\SeyrekTur.Data.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.Data\\SeyrekTur.Data.csproj"
             }
           }
         }

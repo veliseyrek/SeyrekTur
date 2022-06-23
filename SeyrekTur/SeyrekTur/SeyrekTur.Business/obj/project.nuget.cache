@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HSo9U3zqEOUZRYEEBlKNwbm8qYGguWDDtB8Tl3a6ZXSgUZ876A8YBQ3kNmlV/d5EyKL5PqxjFO7QCBfNtS2SKw==",
+  "dgSpecHash": "4C3z1G/Jhj7XD2BIZZswckeuZok8qZ/J0UnkoFNKevt2iccCdYdtNLchFAFjq4pLSTPDC/OU7p/3OkLDPOJFXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\SeyrekTur\\SeyrekTur\\SeyrekTur.Business\\SeyrekTur.Business.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\Veli Seyrek\\SeyrekTur\\SeyrekTur\\SeyrekTur\\SeyrekTur.Business\\SeyrekTur.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
