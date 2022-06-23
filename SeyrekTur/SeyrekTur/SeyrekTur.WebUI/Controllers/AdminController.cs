@@ -11,11 +11,12 @@ namespace SeyrekTur.WebUI.Controllers
     [Authorize]
     public class AdminController : Controller
     {
-
+        
         private UserManager<User> _userManager;
         private ITicketService _ticketService;
-        public AdminController(ITicketService ticketService)
+        public AdminController(ITicketService ticketService, UserManager<User> userManager)
         {
+            this._userManager = userManager;
             this._ticketService = ticketService;
         }
         public IActionResult Index()
@@ -34,7 +35,9 @@ namespace SeyrekTur.WebUI.Controllers
             {
                 FirstName = entity.FirstName,
                 LastName = entity.LastName,
-                Email = entity.Email
+                Email = entity.Email,
+                UserName = entity.UserName
+                
             };
             return View(user);
         }
@@ -45,9 +48,17 @@ namespace SeyrekTur.WebUI.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public async Task<IActionResult> Contact()
         {
-            return View();
+            var entity = await _userManager.GetUserAsync(User);
+            var user = new RegisterModel()
+            {
+                FirstName = entity.FirstName,
+                LastName = entity.LastName,
+                Email = entity.Email,
+                UserName = entity.UserName               
+            };
+            return View(user);
         }
     }
 }
