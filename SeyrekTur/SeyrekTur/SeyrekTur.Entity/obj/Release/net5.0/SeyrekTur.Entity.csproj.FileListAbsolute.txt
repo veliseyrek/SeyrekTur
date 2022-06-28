@@ -10,3 +10,15 @@ C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\Seyr
 C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\refint\SeyrekTur.Entity.dll
 C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\SeyrekTur.Entity.pdb
 C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\ref\SeyrekTur.Entity.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\bin\Release\net5.0\SeyrekTur.Entity.deps.json
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\bin\Release\net5.0\SeyrekTur.Entity.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\bin\Release\net5.0\SeyrekTur.Entity.pdb
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\SeyrekTur.Entity.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\SeyrekTur.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\SeyrekTur.Entity.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\SeyrekTur.Entity.AssemblyInfo.cs
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\SeyrekTur.Entity.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\SeyrekTur.Entity.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\refint\SeyrekTur.Entity.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\SeyrekTur.Entity.pdb
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Entity\obj\Release\net5.0\ref\SeyrekTur.Entity.dll

@@ -41,6 +41,20 @@ using Newtonsoft.Json;
 #line hidden
 #nullable disable
 #nullable restore
+#line 5 "C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.WebUI\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.WebUI\Views\_ViewImports.cshtml"
+using SeyrekTur.WebUI.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.WebUI\Views\User\AdminList.cshtml"
 using X.PagedList;
 
@@ -55,7 +69,7 @@ using X.PagedList.Mvc.Core;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f60b97c2382769d996ff3d3041a81928f3e06f0a", @"/Views/User/AdminList.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5cf7f98835e3b1543a583a8ae3d3e1b74004f23e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"231fc04eda8ad11b4a38676c03145b74574c0bd1", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_User_AdminList : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<TicketRoute>
     #nullable disable
@@ -202,7 +216,7 @@ using X.PagedList.Mvc.Core;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\n    <td>\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f60b97c2382769d996ff3d3041a81928f3e06f0a9026", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f60b97c2382769d996ff3d3041a81928f3e06f0a9465", async() => {
                 WriteLiteral("\n            <input type=\"hidden\" name=\"biletId\"");
                 BeginWriteAttribute("value", " value=\"", 1345, "\"", 1367, 1);
 #nullable restore

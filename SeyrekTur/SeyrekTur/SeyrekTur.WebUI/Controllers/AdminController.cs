@@ -27,17 +27,16 @@ namespace SeyrekTur.WebUI.Controllers
             });           
         }
         
-        public async Task<IActionResult> SettingProfile(int id)
+        public async Task<IActionResult> SettingProfile()
         {
             //var user = _userManager.(id)
             var entity = await _userManager.GetUserAsync(User);
             var user = new RegisterModel()
-            {
-                FirstName = entity.FirstName,
-                LastName = entity.LastName,
-                Email = entity.Email,
-                UserName = entity.UserName
-                
+            {             
+                    FirstName=entity.FirstName,
+                    LastName=entity.LastName,
+                    Email=entity.Email,
+                    UserName = entity.UserName              
             };
             return View(user);
         }
@@ -48,17 +47,20 @@ namespace SeyrekTur.WebUI.Controllers
             return View();
         }
 
-        public async Task<IActionResult> Contact()
+        public  IActionResult Contact()
         {
-            var entity = await _userManager.GetUserAsync(User);
-            var user = new RegisterModel()
-            {
-                FirstName = entity.FirstName,
-                LastName = entity.LastName,
-                Email = entity.Email,
-                UserName = entity.UserName               
-            };
-            return View(user);
+            //var entity = await _userManager.GetUserAsync(User);
+            //var user = new RegisterModel()
+            //{
+            //    FirstName = entity.FirstName,
+            //    LastName = entity.LastName,
+            //    Email = entity.Email,
+            //    UserName = entity.UserName               
+            //};
+
+            //return View(user);
+
+            return View(_userManager.Users);
         }
     }
 }

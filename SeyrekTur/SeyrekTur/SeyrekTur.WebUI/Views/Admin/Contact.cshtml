@@ -1,4 +1,4 @@
-﻿@model List<RegisterModel>
+﻿@model IEnumerable<User>
 @{
     ViewData["Title"] = "Contact";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
@@ -15,10 +15,11 @@
                             <h2>Contacts</h2>
                         </div>
                     </div>
-                    @foreach (var item in Model)
-                    {
-                        <div class="full price_table padding_infor_info">
-                            <div class="row">
+
+                    <div class="full price_table padding_infor_info">
+                        <div class="row">
+                            @foreach (var item in Model)
+                            {
                                 <!-- column contact -->
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 profile_details margin_bottom_30">
                                     <div class="contact_blog">
@@ -60,10 +61,10 @@
                                         </div>
                                     </div>
                                 </div>
+                            }
 
-                            </div>
                         </div>
-                    }
+                    </div>
 
                 </div>
             </div>

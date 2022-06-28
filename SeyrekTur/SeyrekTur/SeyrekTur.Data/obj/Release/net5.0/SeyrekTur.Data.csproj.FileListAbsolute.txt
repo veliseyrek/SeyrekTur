@@ -16,3 +16,21 @@ C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\refint
 C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.pdb
 C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.genruntimeconfig.cache
 C:\Users\hp\Desktop\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\ref\SeyrekTur.Data.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\bin\Release\net5.0\SeyrekTur.Data.deps.json
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\bin\Release\net5.0\SeyrekTur.Data.runtimeconfig.json
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\bin\Release\net5.0\SeyrekTur.Data.runtimeconfig.dev.json
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\bin\Release\net5.0\SeyrekTur.Data.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\bin\Release\net5.0\SeyrekTur.Data.pdb
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\bin\Release\net5.0\SeyrekTur.Entity.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\bin\Release\net5.0\SeyrekTur.Entity.pdb
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.AssemblyInfo.cs
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.csproj.CopyComplete
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\refint\SeyrekTur.Data.dll
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.pdb
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\SeyrekTur.Data.genruntimeconfig.cache
+C:\Users\hp\Desktop\Veli Seyrek\SeyrekTur\SeyrekTur\SeyrekTur\SeyrekTur.Data\obj\Release\net5.0\ref\SeyrekTur.Data.dll

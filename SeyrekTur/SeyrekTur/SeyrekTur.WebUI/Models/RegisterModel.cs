@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SeyrekTur.WebUI.Identity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -31,5 +32,7 @@ namespace SeyrekTur.WebUI.Models
         [Required]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
+        public List<User> Users { get; set; }
     }
 }
